@@ -10,7 +10,7 @@ const runner = function (code, options) {
   }
   if (!config.apiKey || !config.apiKey.length) {
     throw new Error(
-      'API Key is required to run wax-dev. Please reach out to https://developer.wallyax.com/ to get your API Key.'
+      'API Key is required to run wax-dev. Please reach out to https://account.wallyax.com/ to get your API Key.'
     );
   }
   return new Promise((resolve, reject) => {
